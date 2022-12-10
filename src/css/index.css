@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+.head_container{
+    color: white;
+    background-color:#603601;
+    padding: 7px;
+    font-family: 'Cinzel', serif;
+    
+
+}
+
+.head_container h1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+.head_container p{
+    display: flex;
+    flex-direction: row;
+}
+.head_container img{
+    width: 10%;
+    height: 10%;
+    
+}
+
+.head_nav{
+    background-color:#CC9544;
+    padding: 3px;
+    border: 2px solid black;    
+}
+
+.head_nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.head_nav a:hover{
+    color: greenyellow;
+}
+
+.banner img{
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 2px solid sandybrown;
+}
+
+.book_container{
+    margin: 2em;
+}
+
+.book_heading{
+    
+}
+
+.book_heading h1{
+    color: white;
+}
+
+.book_body{
+    margin: 2em;
+}
+
+.book_heading2 h4{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.book_content{
+    margin: 2em;
+}
+.book_content p{
+    color: white;
+    text-align: justify;
+}
+
+
+.book_content .p01{
+   
+}
+
+.book_body3{
+    margin: 4em;
+    color: white;
+}
+
+.book_heading3{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.book_content3{
+    margin: 2em;
+    font-weight: 400;
+    color: white;
+    text-align: justify;
+}
+
+.book_content3 p{
+    background-color: rgba(156, 120, 27, 0.652);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.book_content3 i{
+    float: right;
+}
+
+p::first-letter{
+    font-size: 25px;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    border: 1px solid #CC9544;
+    font-weight: 500;  
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    color: #91cc44;
+}
+
+.active{
+    background-color: #603601;
+    color: coral;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+    color: rgb(143, 28, 28);
+}
+
+
+
+
+.active1{
+    background-color: #603601;
+    color: coral;
+}
+
+.bold1{
+    font-weight: bold;
+}
+
+.italic1{
+    font-style: italic;
+}
+
+.underline1{
+    text-decoration: underline;
+    
+}

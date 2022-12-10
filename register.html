@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="src/css/register.css">
+</head>
+
+<header>
+    
+    <div class="head_container">
+        
+        
+            <h1>Ink-Fable-ly</h1>
+            <p>Every word forms its own story</p>
+        
+    </div>
+    <div class="head_nav">
+        <center>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+        </center>
+    </div>
+    
+</header>
+
+<script>
+    
+alert ("Please fill the form")
+
+
+
+
+function validateForm() {
+  let a = document.forms["myForm"]["fname"].value;
+  if (a == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+
+  let b = document.forms["myForm"]["email"].value;
+  if (b == "") {
+    alert("Enter your email");
+    return false;
+  }
+
+  let c = document.forms["myForm"]["pass"].value;
+  if (c == "") {
+    alert("Password must be filled out");
+    return false;
+  }
+
+  let d = document.forms["myForm"]["cpass"].value;
+  if (d == "") {
+    alert("Enter Password again");
+    return false;
+  }
+
+  let e = document.forms["myForm"]["age"].value;
+  if (e == "") {
+    alert("Select age");
+    return false;
+  }
+
+
+  let f = document.forms["myForm"]["gender"].value;
+  if (f == "") {
+    alert("Select Gender");
+    return false;
+  }
+
+  
+}
+
+</script>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h3>Registration</h3>
+        </div>
+        <div class="box">
+            <form action="formsubmit.html" name="myForm" onsubmit="return validateForm()" method="get">
+                <div class="user-details">
+
+                  <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" name="fname" placeholder="Enter your name" >
+                  </div>
+
+                  
+                  <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" name="email" placeholder="Enter your email">
+                  </div>
+
+
+                  <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" name="pass" placeholder="Enter your password" >
+                  </div>
+
+                  <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="password" name="cpass" type="password" placeholder="Enter your password again" >
+                  </div>
+
+                  <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter your number" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Alternate Number</span>
+                    <input type="text" placeholder="Enter your number" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Age</span>
+                    <input type="number" placeholder="Enter your age" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Favorite Subject</span>
+                    <input type="text" placeholder="Enter your favorite subject" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Favorite Movie</span>
+                    <input type="text" placeholder="Enter your favorite movie" >
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Favorite Singer</span>
+                    <input type="text" placeholder="Enter your favorite singer" >
+                  </div>
+                </div>
+                <div class="gender-details">
+                  <input type="radio" name="gender" id="dot-1">
+                  <input type="radio" name="gender" id="dot-2">
+                  <input type="radio" name="gender" id="dot-3">
+                  <span class="gender-title">Gender</span>
+                  <div class="category">
+                    <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span class="gender">Male </span>
+                  </label>
+                  
+                  <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span class="gender">Female</span>
+                  </label>
+                  <label for="dot-3">
+                    <span class="dot three"></span>
+                    <span class="gender">Prefer not to say</span>
+                    </label>
+                  </div>
+                </div>
+
+
+                
+                <div class="hobbies_select">
+                    <span>Favorite Sports</span>
+                    <br>
+                    <div class="hobbies_category">
+                    <label for="hobbies">Basketball</label>
+                    <input type="checkbox" name="" id="">
+
+                    <label for="hobbies">Cricket</label>
+                    <input type="checkbox" name="" id="">
+
+                    <label for="hobbies">Hockey</label>
+                    <input type="checkbox" name="" id="">
+
+                    <label for="hobbies">Football</label>
+                    <input type="checkbox" name="" id="">
+
+                    <label for="hobbies">Other</label>
+                    <input type="checkbox" name="" id="">
+                </div>
+
+                </div>
+
+
+                <div class="button">
+                  <input type="submit" value="Submit">
+                </div>
+
+
+              </form>
+            </div>
+</body>
+</html>

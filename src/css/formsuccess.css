@@ -1,0 +1,45 @@
+
+body{
+    background-color: black;
+}
+
+h4{
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+   
+}
+
+p{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+button{
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    background-color: #CC9544;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+
+button a{
+    text-decoration: none;
+    padding: 2px;
+    color: black;
+}

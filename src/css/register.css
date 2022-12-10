@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+.head_container{
+    color: white;
+    background-color:#603601;
+    padding: 7px;
+    font-family: 'Cinzel', serif;
+    
+
+}
+
+.head_container h1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+.head_container p{
+    display: flex;
+    flex-direction: row;
+}
+.head_container img{
+    width: 10%;
+    height: 10%;
+    
+}
+
+.head_nav{
+    background-color:#CC9544;
+    padding: 3px;
+    border: 2px solid black;    
+}
+
+.head_nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.head_nav a:hover{
+    color: greenyellow;
+}
+
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+
+}
+
+
+.container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+    word-break: break-all;
+    color: white;
+    
+}
+
+.container .heading h3{
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 2px;
+    border: 2px solid #CC9544;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .heading h3 span{
+    font-weight: 500;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.box{
+    
+    max-width: 400px;
+    max-width: 45%;
+    
+    height: 100%;
+    background-color: #CC9544;
+    padding: 20px 50px;
+    border: 2px solid #CC9544;
+    
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    color: #222;
+    
+}
+
+
+
+form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid{
+    border-color: #000000;
+  }
+   form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+   }
+   form .category{
+     display: flex;
+     width: 100%;
+     margin: 14px 0 ;
+     justify-content: space-between;
+   }
+   form .category label{
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     word-break: break-all;
+   }
+   form .category label .dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+   #dot-1:checked ~ .category label .one,
+   #dot-2:checked ~ .category label .two,
+   #dot-3:checked ~ .category label .three{
+    
+     background: #0a0a0a;
+     border-color: #d9d9d9;
+   }
+   form input[type="radio"]{
+     display: none;
+   }
+   form .button{
+     height: 45px;
+     margin: 35px 0
+   }
+   form .button input{
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 2px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background: linear-gradient(135deg, #603601, #885d1c);
+   }
+   form .button input:hover{
+    
+    background: linear-gradient(-135deg, #885d1c, #603601);
+    }
+
+    form .hobbies_select span{ 
+        font-size: 20px;
+        font-weight: 500;
+    }
+    form .hobbies_category{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px 0 12px 0;
+      }
+
+    form .hobbies_select span.hobbbies_select{
+        background-color: red;
+    }
+
+   @media(max-width: 584px){
+   .container{
+    max-width: 100%;
+  }
+  form .user-details .input-box{
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    form .category{
+      width: 100%;
+    }
+    .content form .user-details{
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+      width: 5px;
+    }
+    }
+
+
+
+
+    @media(max-width: 459px){
+    .container .content .category{
+      flex-direction: column;
+    }
+  }

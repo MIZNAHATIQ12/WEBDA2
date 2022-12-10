@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="src/css/index.css">
+</head>
+
+<header>
+    
+    <div class="head_container">
+       
+        
+            <h1>Ink-Fable-ly</h1>
+            <p>Every word forms its own story</p>
+        
+    </div>
+    <div class="head_nav">
+        <center>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+        </center>
+    </div>
+    
+</header>
+
+
+<script>
+
+var count=0;
+function background()
+{
+setTimeout("col()",5000);
+}
+function col()
+{
+var a =new 
+Array("#F4DFBA","#EEC373","#CA965C","#876445","#BF8B67","#E5890A","#212121");
+if(count<=6)
+{
+document.bgColor=a[count++];
+setTimeout("col()",5000);
+}
+else
+{
+count=0;
+background();
+}
+}
+</script>
+
+
+<body bgcolor=black onload=background()>
+    
+    
+   <section>
+    <div class="banner">
+        <img src="src/img/Banner.jpg" alt="">
+    </div>
+   </section>
+
+   <section>
+    <div class="book_container">
+        <div class="book_heading">
+            <h1>
+                "Books are a uniquely portable magic." - Stephen King
+            </h1>
+        </div>
+
+        <div class="book_body">
+            <div class="book_heading2">
+                <h4 title="Inline CSS used">
+                    Some famous passages from Historical Fictions
+                </h4>
+            </div>
+
+            <br>
+            <br>
+          
+            <div class="button-action">
+                <button id="bold">Bold</button>
+                <button id="italic">Italic</button>
+                <button id="underline">Underline</button>
+            </div>
+
+            <div class="book_content">
+               
+                <p id="para1" class="para1" name="para1" style="background-color: rgba(156, 120, 27, 0.652); border-radius:20px; padding: 25px;">
+                    It was the best of times, it was the worst of times, 
+                    it was the age of wisdom, it was the age of foolishness,
+                    it was the epoch of belief, it was the epoch of incredulity, 
+                    it was the season of Light, it was the season of Darkness, 
+                    it was the spring of hope, it was the winter of despair. 
+                    <br>
+                    <br>
+                            <i style="float: right;"> --- Charles Dickens, "A Tale of Two Cities"</i> 
+                </p>
+                <br>
+                <p id="p02" class="p02" style="background-color: rgba(156, 120, 27, 0.652); border-radius:20px; padding: 25px;">
+                    Two roads diverged in a wood, and I—
+                    I took the one less traveled by,
+                    And that has made all the difference.
+                    <br>
+                    <br>
+                            <i style="float: right;"> --- Robert Frost, “The Road Not Taken”</i> 
+                </p>
+                <br>
+                <p id="p03" class="p03" style="background-color: rgba(156, 120, 27, 0.652); border-radius:20px; padding: 25px;">
+                    The only people for me are the mad ones, the ones who are mad to live, 
+                    mad to talk, mad to be saved, desirous of everything at the same time, 
+                    the ones who never yawn or say a commonplace thing, but burn, burn, 
+                    burn like fabulous yellow roman candles exploding like spiders across the stars.
+                    <br>
+                    <br>    
+                            <i style="float: right;"> --- Jack Kerouac, "On The Road"</i> 
+                </p>
+                <br>
+                <p id="p04" class="p04" style="background-color: rgba(156, 120, 27, 0.652); border-radius:20px; padding: 25px;">
+                    I must not fear. Fear is the mind-killer. Fear is the little-death that 
+                    brings total obliteration. I will face my fear. I will permit it to pass 
+                    over me and through me. And when it has gone past I will turn the inner 
+                    eye to see its path. Where the fear has gone there will be nothing. 
+                    Only I will remain.
+                    <br>
+                    <br>    
+                            <i style="float: right;"> ---  Frank Herbert, "Dune"</i> 
+                </p>
+            </div>
+
+           
+        </div>
+    </section>
+        <br>
+
+    <section>
+        <div class="book_body3">
+            <div class="book_heading3" title="Using External CSS">
+                <h4>
+                    Some famous passages from Romantic Fictions
+                </h4>
+            </div>
+            <br>
+            <br>
+            <div class="button-action2">
+                <button id="bold1">Bold</button>
+                <button id="italic1">Italic</button>
+                <button id="underline1">Underline</button>
+            </div>
+            <div class="book_content3">
+                <p id="05" class="p05">
+                    “You are the friend to whom my soul is attached as to its better half. 
+                    You are dearer to me than language has the power of telling.” 
+                    <br>
+                    <br>
+                            <i> ---  Frances Burney, "Evelina"</i> 
+                </p>
+
+                <br>
+                <br>
+
+                <p id="06" class="p06">
+                    “As I got to know you, I began to realise that beauty was the least of 
+                    your qualities. I became fascinated by your goodness. I was drawn in by it. 
+                    I didn't understand what was happening to me. And it was only when I began to 
+                    feel actual, physical pain every time you left the room that it finally dawned 
+                    on me: I was in love, for the first time in my life.”
+                    <br>
+                    <br>
+                            <i> ---  Choderlos de Laclos, "Dangerous Liasons"</i> 
+                </p>
+
+                <br>
+                <br>
+
+                <p id="07" class="p07">
+                    “I was beginning to believe that a very few times in your life, if you were lucky, 
+                    you might meet someone who was exactly right for you. Not because he was perfect, 
+                    or because you were, but because your combined flaws were arranged in a way that 
+                    allowed two separate beings to hinge together.” 
+                    <br>
+                    <br>
+                            <i> ---  Lisa Kleypas, "Blue-eyed Devil"</i> 
+                </p>
+
+                <br>
+                <br>
+
+                <p id="08" class="p08">
+                    “You are all that, Catalina. You are light. And passion. Your laughter alone can 
+                    lift my mood and effortlessly turn my day around in a matter of seconds. Even when 
+                    it's not aimed at me. You... can light up entire rooms, Catalina. You hold that kind 
+                    of power. And it's because of all the different things that make you who you are. 
+                    Each and every one of them, even the ones that drive me crazy in ways you can't imagine. 
+                    You should never forget that.” 
+                    <br>
+                    <br>
+                            <i> ---  Elena Armas, "The Spanish Love Deception"</i> 
+                </p>
+
+                <br>
+                <br>
+            </div>
+        </div>
+    </section>
+
+
+
+    </div>
+   
+
+
+
+<script src="src/js/indent.js">
+
+</script>
+
+
+</body>
+</html>
